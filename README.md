@@ -20,3 +20,6 @@ node index.js
 ```
 
 Test out http://localhost:1729/hello-world 
+docker build -t my-node-app .
+docker run -p 3000:3000 my-node-app
+
