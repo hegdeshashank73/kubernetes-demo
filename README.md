@@ -5,7 +5,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 source ~/.nvm/nvm.sh
 nvm install 20.10.0
 export PATH=$PATH:/home/ubuntu/.nvm/versions/node/v20.10.0/bin
-```
+```s
 Check installation with `node --version`
 On two terminals run both servers, 
 ```
